@@ -46,7 +46,7 @@ export const Hero = () => {
         <div className="text-center animate-fade-in">
           <div className="inline-block mb-4">
             <span className="bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-semibold border border-primary/30">
-              🏆 #1 Arm Wrestling Training App
+              💪 The First Dedicated Arm Wrestling Training App
             </span>
           </div>
 
@@ -57,7 +57,7 @@ export const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto text-balance">
-            The ultimate training companion for arm wrestlers. Track workouts, monitor progress,
+            Finally, a dedicated training companion built specifically for arm wrestlers. Track workouts, monitor progress,
             and reach your peak performance with advanced analytics and personalized training cycles.
           </p>
 
@@ -76,19 +76,19 @@ export const Hero = () => {
             </a>
           </div>
 
-          {/* Stats */}
+          {/* Key Features */}
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 text-white">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold gradient-text">10K+</div>
-              <div className="text-gray-400 text-sm">Active Users</div>
+              <div className="text-3xl md:text-4xl font-bold gradient-text">Specialized</div>
+              <div className="text-gray-400 text-sm">Built for Arm Wrestling</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold gradient-text">500K+</div>
-              <div className="text-gray-400 text-sm">Workouts Tracked</div>
+              <div className="text-3xl md:text-4xl font-bold gradient-text">Complete</div>
+              <div className="text-gray-400 text-sm">Track Every Detail</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold gradient-text">4.8★</div>
-              <div className="text-gray-400 text-sm">App Store Rating</div>
+              <div className="text-3xl md:text-4xl font-bold gradient-text">Smart</div>
+              <div className="text-gray-400 text-sm">Advanced Analytics</div>
             </div>
           </div>
         </div>
