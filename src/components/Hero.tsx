@@ -24,9 +24,7 @@ export const Hero = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white text-xl font-bold">💪</span>
-              </div>
+              <img src="/logo.png" alt="ArmProgress Logo" className="w-14 h-14 rounded-lg" />
               <span className="text-white text-2xl font-bold">ArmProgress</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
