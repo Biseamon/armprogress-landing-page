@@ -8,14 +8,12 @@ export const Footer = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white text-xl font-bold">💪</span>
-              </div>
+              <img src="/logo.png" alt="ArmProgress Logo" className="w-14 h-14 rounded-lg" />
               <span className="text-white text-2xl font-bold">ArmProgress</span>
             </div>
             <p className="text-gray-400 max-w-md mb-4">
-              The ultimate training companion for arm wrestlers. Track your progress,
-              analyze your performance, and dominate the competition.
+              The first dedicated training app built exclusively for arm wrestling. Track your progress,
+              analyze your performance, and reach your peak potential.
             </p>
             <div className="flex space-x-4">
               <a href="https://twitter.com/armprogress" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition">
@@ -52,10 +50,9 @@ export const Footer = () => {
           <div>
             <h3 className="text-white font-bold mb-4">Support</h3>
             <ul className="space-y-2">
-              <li><a href="/help" className="text-gray-400 hover:text-white transition">Help Center</a></li>
-              <li><a href="/contact" className="text-gray-400 hover:text-white transition">Contact Us</a></li>
-              <li><a href="/privacy" className="text-gray-400 hover:text-white transition">Privacy Policy</a></li>
-              <li><a href="/terms" className="text-gray-400 hover:text-white transition">Terms of Service</a></li>
+              <li><a href="mailto:support@armprogress.com" className="text-gray-400 hover:text-white transition">Contact Us</a></li>
+              <li><a href="/privacy-policy.html" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">Privacy Policy</a></li>
+              <li><a href="/terms-and-conditions.html" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">Terms & Conditions</a></li>
             </ul>
           </div>
         </div>
