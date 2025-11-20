@@ -50,7 +50,7 @@ export const Footer = () => {
           <div>
             <h3 className="text-white font-bold mb-4">Support</h3>
             <ul className="space-y-2">
-              <li><a href="mailto:support@armprogress.com" className="text-gray-400 hover:text-white transition">Contact Us</a></li>
+              <li><a href="/contact.html" className="text-gray-400 hover:text-white transition">Contact Us</a></li>
               <li><a href="/privacy-policy.html" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">Privacy Policy</a></li>
               <li><a href="/terms-and-conditions.html" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition">Terms & Conditions</a></li>
             </ul>
